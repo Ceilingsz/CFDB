@@ -15,11 +15,12 @@ const tableName = "problems";
 const userTable = "users";
 
 const db = new pg.Client({
-    user:"postgres",
-    password:"123456",
-    host:"localhost",
+    user:"postgres1",
+    password:"yv6tbHlvcyzBBQFIoH32R2IAuEp7Tccj",
+    host:"dpg-cqa1355ds78s739kq1p0-a.oregon-postgres.render.com",
     database:"cfproblems",
     port:5432,
+    ssl:true
 });
 
 db.connect();
